@@ -1324,7 +1324,7 @@ endfor
 hi def link mcBlockStateBracket         mcOp
 hi def link mcBlockStateEq              mcOp
 hi def link mcBlockStateKeyword         mcKeyword
-hi def link mcBlockStateValue           mcKeyword
+hi def link mcBlockStateValue           mcValue
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Filter
