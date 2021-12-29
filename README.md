@@ -10,7 +10,7 @@ To install using [vim-plug](https://github.com/junegunn/vim-plug), add
 ```
 call plug#begin('~/.vim/plugged')
 
-Plug 'rubixninja314/vim-mcfunction'
+Plug 'CWilsonTSP/vim-mcfunction'
 
 call plug#end()
 ```
