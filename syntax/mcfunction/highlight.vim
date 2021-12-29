@@ -2,17 +2,17 @@ hi def link mcError             Error
 hi def link mcChatMessage       String
 hi def link mcComment           Comment
 
-hi mcCommand            ctermfg=magenta         cterm=bold gui=bold  ctermbg=Darkgrey guifg=magenta
+hi mcCommand            ctermfg=magenta         ctermbg=Darkgrey guifg=magenta
 hi mcOp                 ctermfg=grey guifg=grey
-hi mcSelector           ctermfg=lightgreen           cterm=bold guifg=lightgreen gui=bold
+hi mcSelector           ctermfg=lightgreen           guifg=lightgreen 
 
 hi mcCoordinate         ctermfg=green
-hi mcCoordinate2        ctermfg=green             cterm=bold gui=bold
+hi mcCoordinate2        ctermfg=green             
 hi mcCoordinate3        ctermfg=green
 
 hi mcKeyword                                    cterm=bold gui=bold
 hi mcValue              ctermfg=lightblue guifg=lightblue
-hi mcKeyId              ctermfg=yellow      cterm=bold guifg=yellow gui=bold
+hi mcKeyId              ctermfg=yellow      guifg=yellow 
 hi mcId                 ctermfg=yellow guifg=yellow
 
 hi mcNBTBracket         ctermfg=grey            guisp=blue guifg=gray
