@@ -2,7 +2,7 @@ hi def link mcError             Error
 hi def link mcChatMessage       String
 hi def link mcComment           Comment
 
-hi mcCommand            ctermfg=white ctermbg=Darkgrey guifg=white guibg=Darkgrey        cterm=bold gui=bold
+hi mcCommand            ctermfg=magenta         cterm=bold gui=bold  ctermbg=Darkgrey guifg=white guibg=Darkgrey 
 hi mcOp                 ctermfg=grey guifg=grey
 hi mcSelector           ctermfg=lightgreen           cterm=bold guifg=lightgreen gui=bold
 
@@ -15,11 +15,11 @@ hi mcValue              ctermfg=lightblue guifg=lightblue
 hi mcKeyId              ctermfg=yellow      cterm=bold guifg=yellow gui=bold
 hi mcId                 ctermfg=yellow guifg=yellow
 
-hi mcNBTBracket         ctermfg=grey            cterm=underline gui=underline guisp=blue guifg=gray
-hi mcNBTPath            ctermfg=white           cterm=underline gui=underline guisp=blue guifg=white
-hi mcNBTPathDot         ctermfg=grey            cterm=underline gui=underline guisp=blue guifg=gray
-hi mcNBTValue           ctermfg=lightblue       cterm=underline gui=underline guisp=blue guifg=lightblue
-hi mcNBTSpace                                   cterm=underline gui=underline guisp=blue
+hi mcNBTBracket         ctermfg=grey            guisp=blue guifg=gray
+hi mcNBTPath            ctermfg=white           guisp=blue guifg=white
+hi mcNBTPathDot         ctermfg=grey            guisp=blue guifg=gray
+hi mcNBTValue           ctermfg=lightblue       guisp=blue guifg=lightblue
+hi mcNBTSpace                                   guisp=blue
 
 if (exists('g:mcJSONMethod') && g:mcJSONMethod =~ '\v\c<%(n%[one]|p%[lugin])>')
         hi mcJSONText cterm=underline gui=underline guisp=green
@@ -49,7 +49,7 @@ endif
 " Top level execute keywords
 "execute as @a positioned as @s store entity @s Health byte 1 run kill @s
 "        ^^    ^^^^^^^^^^       ^^^^^                         ^^^
-hi mcExecuteKeyword ctermfg=white cterm=bold,italic guifg=white
+hi mcExecuteKeyword ctermfg=blue cterm=bold,italic guifg=white
 
 
 " @e[type=zombie]   grass_block[snowy=true]
