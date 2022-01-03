@@ -2,24 +2,24 @@ hi def link mcError             Error
 hi def link mcChatMessage       String
 hi def link mcComment           Comment
 
-hi mcCommand            ctermfg=5     ctermbg=Darkgrey    guifg=purple
+hi mcCommand            ctermfg=magenta     ctermbg=Darkgrey    guifg=purple
 hi mcOp                 ctermfg=grey                            guifg=grey
-hi mcSelector           ctermfg=12                      guifg=12 
+hi mcSelector           ctermfg=lightgreen                      guifg=lightgreen 
 
-hi mcCoordinate         ctermfg=2
-hi mcCoordinate2        ctermfg=2             
-hi mcCoordinate3        ctermfg=2
+hi mcCoordinate         ctermfg=green
+hi mcCoordinate2        ctermfg=green             
+hi mcCoordinate3        ctermfg=green
 
 " hi mcKeyword                                    cterm=bold gui=bold
-hi mcValue              ctermfg=14 guifg=4
-hi mcKeyId              ctermfg=3      guifg=3 
-hi mcId                 ctermfg=3 guifg=3
+hi mcValue              ctermfg=lightblue guifg=lightblue
+hi mcKeyId              ctermfg=yellow      guifg=yellow 
+hi mcId                 ctermfg=yellow guifg=yellow
 
-hi mcNBTBracket         ctermfg=grey            guisp=4 guifg=gray
-hi mcNBTPath            ctermfg=white           guisp=4 guifg=white
-hi mcNBTPathDot         ctermfg=grey            guisp=4 guifg=gray
-hi mcNBTValue           ctermfg=14       guisp=4 guifg=14
-hi mcNBTSpace                                   guisp=4
+hi mcNBTBracket         ctermfg=grey            guisp=blue guifg=gray
+hi mcNBTPath            ctermfg=white           guisp=blue guifg=white
+hi mcNBTPathDot         ctermfg=grey            guisp=blue guifg=gray
+hi mcNBTValue           ctermfg=lightblue       guisp=blue guifg=lightblue
+hi mcNBTSpace                                   guisp=blue
 
 if (exists('g:mcJSONMethod') && g:mcJSONMethod =~ '\v\c<%(n%[one]|p%[lugin])>')
         hi mcJSONText cterm=underline gui=underline guisp=green
